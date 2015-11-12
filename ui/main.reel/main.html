@@ -61,6 +61,16 @@
                 ]
             }
         },
+        "image1": {
+            "prototype": "digit/ui/image.reel",
+            "properties": {
+                "element": {"#": "image1"},
+                "contenteditable": "true",
+                "crossOrigin": null,
+                "dir": "ltr",
+                "draggable": "true"
+            }
+        },
         "text": {
             "prototype": "digit/ui/text.reel",
             "properties": {
@@ -77,7 +87,7 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0" data-montage-id="flow">
-            <div></div>
+            <div data-montage-id="image1"></div>
         </div>
         <p data-montage-id="text"></p>
     </div>
